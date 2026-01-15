@@ -2,7 +2,7 @@
 
 A modern, responsive dashboard implementation featuring React Router, localized Authentication, and Data Visualization.
 
-## 🚀 Setup
+##  Setup
 
 1. **Install Dependencies**
    ```bash
@@ -17,7 +17,7 @@ A modern, responsive dashboard implementation featuring React Router, localized 
 3. **Open Application**
    - Visit `http://localhost:5173` (or port shown in terminal).
 
-## ✅ Features Checklist
+##  Features Checklist
 
 ### Part A: Landing Page
 - [x] Unmodified original landing page at `/`.
@@ -45,11 +45,11 @@ A modern, responsive dashboard implementation featuring React Router, localized 
   - Profile form (Name/Email) with `localStorage` persistence.
   - **Theme Toggle**: Light/Dark mode switching (persists to `localStorage`).
 
-## 📸 Screenshots
+## Screenshots
 
 *(Placeholder: Insert screenshots of Login, Dashboard, and Users Modal here)*
 
-## 🧠 Decisions & Tradeoffs
+## Decisions & Tradeoffs
 
 1. **Router Choice**: Used `react-router-dom` as this is a Vite SPA. Wrapped the entire app in `AuthProvider` to ensure auth state is accessible globally.
 2. **Landing Page Preservation**: Kept the original `App.tsx` content inline in the root route to strictly adhere to the "no touch" constraint for existing components, while still allowing the router to manage it.
@@ -58,6 +58,5 @@ A modern, responsive dashboard implementation featuring React Router, localized 
    - Used `fetch` inside `useEffect` for simplicity given the scope. In a production app, I would use TanStack Query for caching and better state management.
    - Client-side pagination/sorting was chosen because the mock API returns all 10 users at once.
 
-## 🎥 Demo
-
-*(Placeholder: Link to 10-minute screen recording)*
+##  Demo
+https://drive.google.com/file/d/1wc5J4JezURrPWsARYSpgxZvZK25VrWbQ/view?usp=sharing
